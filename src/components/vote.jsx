@@ -87,7 +87,19 @@ const Vote = () => {
 
     
     return ( 
-        <div className="evm">
+        <>
+         <div className="nav">
+                    <a href="#follow"><img  className="logo" src="img/logo.jfif" alt="" /> </a>   
+                <ul>
+                <li><a href="#evm">Home</a></li>
+                <li><a href="#evm">Vote</a></li>
+                <li><a href="#result">Result</a></li>
+                <li><a href="https://github.com/wasimkhanktr/evm-test-machine">Source Code</a></li>
+                <li><a href="#follow">Contact Us</a></li></ul>
+            </div>
+        <div id="evm" className="evm">
+       
+
             <table border={1}><ol>
                 <tr>
                     <td><h1><li></li></h1></td>
@@ -165,8 +177,10 @@ const Vote = () => {
                 
 
 
-                <div>
-      <button className="result" onClick={toggleVisibility}>
+    
+        </div>
+        <div>
+      <button id="result" className="result" onClick={toggleVisibility}>
         {isVisible ? 'Hide Result' : 'Show Result'}
       </button>
       {isVisible && (
@@ -180,7 +194,7 @@ const Vote = () => {
                 <h1>Total vote = {count}</h1>
         </div>
       )}
-      <div className="follow">
+      <div className="follow" id="follow">
         <h1>contact us</h1>
         
         <div className="name">  
@@ -199,7 +213,7 @@ const Vote = () => {
       </div>
         </div>
           <div className="copy"><p>Copyright © 2024 wasimkhanktr ®</p></div>
-        </div>
+        </>
      );
 }
  

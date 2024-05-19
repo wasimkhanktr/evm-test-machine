@@ -1,5 +1,5 @@
 .evm{
-    margin: 50px;
+    margin: 100px 50px;
 }
 
 button{
@@ -29,10 +29,12 @@ h1{
 }
 .result{
     background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
 }
 .copy{
     height: 40px;
-    background-image: radial-gradient(pink,red,blue,green);
+    background-image: radial-gradient(pink,red);
     color: white;
     font-size: 25px;
 }
@@ -57,4 +59,107 @@ h1{
     width: 200px;
     border-radius: 5%;
 }
+.nav {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #333; /* Add a background color for better visibility */
+    position: fixed;
+    top: 0;
+    width: 100%;
 
+}
+
+.nav ul {
+    
+    list-style: none;
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.logo{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 50px;
+}
+
+/* Adjustments for mobile devices */
+@media only screen and (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .nav ul li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Media query for mobile devices */
+
+@media only screen and (max-width: 768px) {
+    .evm {
+        margin: 20px;
+    }
+    
+    button {
+        width: 120px;
+        height: 50px;
+    }
+    
+    .circle {
+        margin: 0 20px;
+        height: 40px;
+        width: 40px;
+    }
+    
+    img {
+        width: 80px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    .result {
+        font-size: 16px;
+    }
+    
+    .copy {
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    .follow ul {
+        padding-left: 0;
+        width: 400px;
+        display: flex;
+    }
+    
+    .name .profile {
+        height: 150px;
+        width: 150px;
+    }
+}
