@@ -21,23 +21,23 @@ const Vote = () => {
     const[name,setname]=useState('result panding')
     const  changeColor = (row) => {
         if (row === 1) {
-               setCurrentColorRow1('blue');
+               setCurrentColorRow1('green');
                setcount1(count1+1);
               }
         else if(row === 2){
-            setCurrentColorRow2('blue');
+            setCurrentColorRow2('green');
             setcount2(count2+1);
         }
         else if(row === 3){
-            setCurrentColorRow3('blue');
+            setCurrentColorRow3('green');
             setcount3(count3+1);
         }
         else if(row === 4){
-            setCurrentColorRow4('blue');
+            setCurrentColorRow4('green');
             setcount4(count4+1);
         }
         else if(row === 5){
-            setCurrentColorRow5('blue');
+            setCurrentColorRow5('green');
             setcount5(count5+1);
         }
        
