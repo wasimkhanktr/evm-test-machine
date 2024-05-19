@@ -130,7 +130,7 @@ h1{
 
 @media only screen and (max-width: 768px) {
     .evm {
-        margin: 20px;
+        margin: 100px 20px;
     }
     
     button {
