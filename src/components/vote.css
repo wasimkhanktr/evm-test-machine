@@ -1,0 +1,60 @@
+.evm{
+    margin: 50px;
+}
+
+button{
+    height: 60px;
+    width: 150px;
+    border-radius:40px;
+ background-color: rgb(14, 14, 114);   
+}
+.circle{
+
+    margin: 0 40px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    /* color: red; */
+}
+img{
+    /* padding: 0 40px; */
+    /* height: 40px; */
+    width: 100px;
+}
+h1{
+    padding-left: 20px;
+    font-size: 40px;
+    text-align: left;
+}
+.result{
+    background-color: #fff;
+}
+.copy{
+    height: 40px;
+    background-image: radial-gradient(pink,red,blue,green);
+    color: white;
+    font-size: 25px;
+}
+.follow img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.follow ul{
+    padding-left: 500px;
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.name img{
+    height: 20px;
+    width: 20px;
+}
+.name .profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+}
+
