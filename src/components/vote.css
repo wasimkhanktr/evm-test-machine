@@ -180,7 +180,12 @@ h1 {
         margin: 100px 20px;
     }
     .chaap{
-         position: none;
+        height: 500px;
+        width: 300px;
+        background-image: url('../../public/img/vpad.png');
+        padding: 0;
+        margin: 0;
+        position: none;
     }
     button {
         width: 120px;
