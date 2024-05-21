@@ -1,69 +1,91 @@
-.evm{
+.evm {
     margin: 100px 50px;
 }
+.evm table{
+    padding: 0;
+    margin: 0;
+    border: 30px rgb(232, 19, 19) ridge;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
 
-button{
+
+button {
     height: 60px;
     width: 150px;
-    border-radius:40px;
- background-color: rgb(14, 14, 114);   
+    border-radius: 40px;
+    background-color: rgb(14, 14, 114);
+    border: 1px black solid;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
-.circle{
+
+.circle {
 
     margin: 0 40px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     background-color: red;
+    border: 1px black solid;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     /* color: red; */
 }
-img{
+
+img {
     /* padding: 0 40px; */
     /* height: 40px; */
     width: 100px;
 }
-h1{
+
+h1 {
     padding-left: 20px;
     font-size: 40px;
     text-align: left;
 }
-.result{
+
+.result {
     background-color: #fff;
     font-size: 20px;
     font-weight: 600;
 }
-.copy{
+
+.copy {
     height: 40px;
-    background-image: radial-gradient(pink,red);
+    background-image: radial-gradient(pink, red);
     color: white;
     font-size: 25px;
 }
-.follow img{
+
+.follow img {
     height: 40px;
     width: 40px;
     border-radius: 50%;
 }
-.follow ul{
+
+.follow ul {
     padding-left: 500px;
     list-style: none;
     display: flex;
     width: 400px;
     justify-content: space-between;
 }
-.name img{
+
+.name img {
     height: 20px;
     width: 20px;
 }
-.name .profile{
+
+.name .profile {
     height: 200px;
     width: 200px;
     border-radius: 5%;
 }
+
 .nav {
     margin: 0;
     padding: 0;
     height: 50px;
-    background-color: #333; /* Add a background color for better visibility */
+    background-color: #333;
+    /* Add a background color for better visibility */
     position: fixed;
     top: 0;
     width: 100%;
@@ -71,7 +93,7 @@ h1{
 }
 
 .nav ul {
-    
+
     list-style: none;
     margin-left: 50%;
     display: flex;
@@ -82,7 +104,7 @@ h1{
 .nav ul li {
     display: inline;
     margin-right: 20px;
-    
+
 }
 
 .nav ul li a {
@@ -92,7 +114,8 @@ h1{
     font-weight: 600;
     padding: 10px;
 }
-.logo{
+
+.logo {
     position: absolute;
     height: 40px;
     width: 40px;
@@ -109,14 +132,16 @@ h1{
     }
 
     .nav ul li {
-        margin:  0;
+        margin: 0;
         padding: 10px;
-        
+
     }
-    .nav ul li a{
+
+    .nav ul li a {
         font-size: 10px;
     }
-    .logo{
+
+    .logo {
         position: absolute;
         height: 40px;
         width: 40px;
@@ -132,44 +157,44 @@ h1{
     .evm {
         margin: 100px 20px;
     }
-    
+
     button {
         width: 120px;
         height: 50px;
     }
-    
+
     .circle {
         margin: 0 20px;
         height: 40px;
         width: 40px;
     }
-    
+
     img {
         width: 80px;
     }
-    
+
     h1 {
         font-size: 30px;
     }
-    
+
     .result {
         font-size: 16px;
     }
-    
+
     .copy {
         font-size: 20px;
         width: 150%;
     }
-    
+
     .follow ul {
         padding-left: 0;
         width: 400px;
         display: flex;
     }
-    
+
     .name .profile {
         height: 150px;
         width: 150px;
     }
-    
+
 }
