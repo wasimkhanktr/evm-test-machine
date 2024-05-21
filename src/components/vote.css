@@ -185,7 +185,7 @@ h1 {
         background-image: url('../../public/img/vpad.png');
         padding: 0;
         margin: 0;
-        position: none;
+        position: relative;
     }
     button {
         width: 120px;
