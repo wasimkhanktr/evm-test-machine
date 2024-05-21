@@ -179,7 +179,9 @@ h1 {
     .evm {
         margin: 100px 20px;
     }
-
+    .chaap{
+         position: none;
+    }
     button {
         width: 120px;
         height: 50px;
