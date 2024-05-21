@@ -199,20 +199,20 @@ const Vote = () => {
         
         <div className="name">  
             <img className="profile" src="img/logo.jfif" alt="" />  
-            <h3>wasimkhanktr <img src="img/verify.png" alt="" /></h3>
-            <h3>Md Wasim Akram</h3>
+            <h3>mr_asif_kbs25 <img src="img/verify.png" alt="" /></h3>
+            <h3>Md Umar Farooq</h3>
         </div>
         <ul>
-            <li><a href="https://www.facebook.com/wasimkhanktr1/?locale=es_ES"><img src="img/facebook.png" alt="" /></a></li>
-            <li><a href="https://www.instagram.com/wasimkhanktr/?hl=en"><img src="img/instagram.png" alt="" /></a></li>
-            <li><a href="https://www.linkedin.com/in/md-wasim-akram-09641516a/"><img src="img/social.png" alt="" /></a></li>
-            <li><a href="https://x.com/i/flow/login?redirect_after_login=%2Fwasimkhanktr1"><img src="img/twitter.png" alt="" /></a></li>
-            <li><a href="https://wa.me/qr/RAZOF3CUH76CI1"><img src="img/whatsapp.png" alt="" /></a></li>
-            <li><a href="https://github.com/wasimkhanktr"><img src="img/github.png" alt="" /></a></li>
+            <li><a href=""><img src="img/facebook.png" alt="" /></a></li>
+            <li><a href="https://www.instagram.com/mr_asif_kbs25/"><img src="img/instagram.png" alt="" /></a></li>
+            <li><a href=""><img src="img/social.png" alt="" /></a></li>
+            <li><a href=""><img src="img/twitter.png" alt="" /></a></li>
+            <li><a href="https://wa.me/qr/XSFRWV6QETMZJ1"><img src="img/whatsapp.png" alt="" /></a></li>
+            <li><a href=""><img src="img/github.png" alt="" /></a></li>
         </ul>
       </div>
         </div>
-          <div className="copy"><p>Copyright © 2024 wasimkhanktr ®</p></div>
+          <div className="copy"><p>Copyright © 2024 mr_asif_kbs25 ®</p></div>
         </>
      );
 }
