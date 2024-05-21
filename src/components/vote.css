@@ -186,6 +186,8 @@ h1 {
         padding: 0;
         margin: 0;
         position: relative;
+        left: 100px;
+        bottom: 30px;
     }
     button {
         width: 120px;
