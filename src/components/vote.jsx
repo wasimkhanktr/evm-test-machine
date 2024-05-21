@@ -10,6 +10,9 @@ const Vote = () => {
     const [count3, setcount3] = useState(0);
     const [count4, setcount4] = useState(0);
     const [count5, setcount5] = useState(0);
+    const[display,setdisplay]=useState('none')
+    const [chaap, setchaap]=useState('');
+    const[img,setimg]=useState('')
 
 
     const [currentColorRow1, setCurrentColorRow1] = useState('red');
@@ -22,23 +25,38 @@ const Vote = () => {
     const changeColor = (row) => {
         if (row === 1) {
             setCurrentColorRow1('green');
+            setdisplay('block')
             setcount1(count1 + 1);
+            setchaap('BJP')
+            setimg('img/kamal.jpg')
         }
         else if (row === 2) {
             setCurrentColorRow2('green');
+            setdisplay('block')
             setcount2(count2 + 1);
+            setchaap('INC')
+            setimg('img/hath.jfif')
         }
         else if (row === 3) {
             setCurrentColorRow3('green');
+            setdisplay('block')
             setcount3(count3 + 1);
+            setchaap('RJD')
+            setimg('img/lalten.jpg')
         }
         else if (row === 4) {
             setCurrentColorRow4('green');
+            setdisplay('block')
             setcount4(count4 + 1);
+            setchaap('JDU')
+            setimg('img/teer.webp')
         }
         else if (row === 5) {
             setCurrentColorRow5('green');
+            setdisplay('block')
             setcount5(count5 + 1);
+            setchaap('AIMIM')
+            setimg('img/patang.png')
         }
 
         setTimeout(() => {
@@ -47,6 +65,7 @@ const Vote = () => {
             setCurrentColorRow3('red');
             setCurrentColorRow4('red');
             setCurrentColorRow5('red');
+            setdisplay('none')
             const audio = new Audio('img/beep-01a.mp3');
             audio.play();
         }, 2000);
@@ -169,6 +188,17 @@ const Vote = () => {
                     </tr>
                 </ol></table>
                 <br /><br /><br /><br /><br />
+
+                <div className="chaap">
+                    <marquee   className="chap" behavior="scroll" direction="down">
+
+                        <div style={{display: display }}>
+                         <h3>{chaap}</h3>
+                         <img src={img} alt="" />
+                        </div>
+
+                    </marquee>
+                </div>
 
 
 
